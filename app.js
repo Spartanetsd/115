@@ -1,5 +1,5 @@
 /* СЛОВО 115 — логіка застосунку. Vanilla JS (ES2017), без залежностей і без збирання.
-   Дані: window.SLOVO (data/topics.js), window.SLOVO_LANG (data/lang.js). Прогрес — localStorage. */
+   Дані: window.SLOVO (topics.js), window.SLOVO_LANG (lang.js). Прогрес — localStorage. */
 (function () {
   'use strict';
 
@@ -1386,7 +1386,7 @@
   }
 
   /* ================= Налаштування ================= */
-  const VERSION = '1.0.0';
+  const VERSION = '1.0.1';
   let swState = 'немає';
   function applyTheme() {
     const t = DB.set.theme, root = document.documentElement;

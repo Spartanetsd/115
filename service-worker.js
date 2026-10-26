@@ -1,7 +1,7 @@
 /* СЛОВО 115 — Service Worker для офлайн-роботи.
    ПІСЛЯ ОНОВЛЕННЯ ФАЙЛІВ У РЕПОЗИТОРІЇ збільшіть VERSION (наприклад, v1.0.1) —
    тоді застосунок запропонує користувачам оновитися. */
-const VERSION = 'slovo115-v1.0.0';
+const VERSION = 'slovo115-v1.0.1';
 
 const ASSETS = [
   './',
@@ -9,21 +9,21 @@ const ASSETS = [
   './style.css',
   './app.js',
   './manifest.webmanifest',
-  './data/content-01.js',
-  './data/content-02.js',
-  './data/content-03.js',
-  './data/content-04.js',
-  './data/content-05.js',
-  './data/content-06.js',
-  './data/content-07.js',
-  './data/content-08.js',
-  './data/topics.js',
-  './data/lang.js',
-  './assets/icon.svg',
-  './assets/icon-180.png',
-  './assets/icon-192.png',
-  './assets/icon-512.png',
-  './assets/icon-maskable-512.png'
+  './content-01.js',
+  './content-02.js',
+  './content-03.js',
+  './content-04.js',
+  './content-05.js',
+  './content-06.js',
+  './content-07.js',
+  './content-08.js',
+  './topics.js',
+  './lang.js',
+  './icon.svg',
+  './icon-180.png',
+  './icon-192.png',
+  './icon-512.png',
+  './icon-maskable-512.png'
 ];
 
 self.addEventListener('install', event => {
