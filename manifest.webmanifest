@@ -1,0 +1,20 @@
+{
+  "name": "СЛОВО 115",
+  "short_name": "СЛОВО 115",
+  "description": "Тренажер усної частини іспиту з української мови: 115 тем, монологи рівня С1, тренування з таймером і режим іспиту.",
+  "lang": "uk",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f6f8",
+  "theme_color": "#f5f6f8",
+  "categories": ["education"],
+  "icons": [
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
